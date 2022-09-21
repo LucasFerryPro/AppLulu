@@ -5,7 +5,7 @@ import {VideoLuluListComponent} from "./video-lulu-list/video-lulu-list.componen
 
 const routes: Routes = [
   {path: '', component: LandingPageComponent},
-  {path: 'video', component: VideoLuluListComponent},
+  {path: 'videos', component: VideoLuluListComponent},
 ];
 
 @NgModule({

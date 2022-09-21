@@ -32,25 +32,3 @@ body{
   width: 70%;
   //seulement txt
 }
-
-button {
-  box-sizing: border-box;
-  padding: 5px 10px;
-  border: none;
-  margin-right: 20px;
-  outline: none;
-  font-weight: 500;
-  background-color: transparent;
-  box-shadow: lightgray 3px 3px 7px;
-  font-size: 15px;
-  &:active {
-    transform: translate(1px, 1px);
-    box-shadow: lightgray 0 0 5px;
-  }
-  &:hover{
-    background-color: rgba(lightblue, 0.4);
-    color: darkblue;
-  }
-}
-
-
