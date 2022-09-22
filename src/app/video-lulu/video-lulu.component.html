@@ -1,7 +1,5 @@
 <div class="video-card card">
-  <h2>{{ videoLulu.title | titlecase }}</h2>
-  <h4>Vidéo envoyé de {{ videoLulu.sender }}!</h4>
-  <p>{{ videoLulu.description }}</p>
-  Inserer vidéo ici
-<!--  <video controls [src]="videoLulu.videoPath"></video>-->
+  <h2>Vidéo envoyé de {{ videoLulu.sender | titlecase}}!</h2>
+  <pre>{{ videoLulu.description }}</pre>
+  <video controls [src]="'../../assets/videos/'+videoLulu.videoName"></video>
 </div>
