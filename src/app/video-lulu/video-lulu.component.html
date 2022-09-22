@@ -1,5 +1,5 @@
 <div class="video-card card">
   <h2>Vidéo envoyé de {{ videoLulu.sender | titlecase}}!</h2>
-  <pre>{{ videoLulu.description }}</pre>
+  <pre style="white-space:pre-wrap">{{ videoLulu.description }}</pre>
   <video controls [src]="'../../assets/videos/'+videoLulu.videoName"></video>
 </div>
