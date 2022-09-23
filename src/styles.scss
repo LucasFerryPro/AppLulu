@@ -1,3 +1,18 @@
+@media (max-width: 1020px){
+  .video-card{
+    width: 80%;
+    video{
+      width: 100%;
+    }
+    //seulement video
+  }
+
+  .text-card{
+    width: 90%;
+    //seulement txt
+  }
+}
+
 * {
   font-family: Roboto, Helvetica, sans-serif;
 }
@@ -22,15 +37,21 @@ body{
   }
 }
 
-.video-card{
-  width: 50%;
-  video{
-    width: 100%;
+@media (min-width: 1020px) {
+  .video-card {
+    width: 50%;
+
+    video {
+      width: 100%;
+    }
+
+    //seulement video
   }
-  //seulement video
+
+  .text-card {
+    width: 70%;
+    //seulement txt
+  }
 }
 
-.text-card{
-  width: 70%;
-  //seulement txt
-}
+
