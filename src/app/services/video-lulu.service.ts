@@ -78,7 +78,7 @@ export class VideoLuluService {
       videoName:"copines.mp4"
     },
     {
-      sender: "Tes parents",
+      sender: "tes parents",
       description:"Et voilà dix huit ans, encore 3  fois comme cela et tu seras à la retraite. Bosse bien et bon anniversaire 😂😂😂😂",
       videoName:"parents.mp4"
     },
