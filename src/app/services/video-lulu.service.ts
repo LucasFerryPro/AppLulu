@@ -33,6 +33,11 @@ export class VideoLuluService {
       videoName:"azad.mp4"
     },
     {
+      sender: "Syrine",
+      description:"Coucou ma lulu, petite vidéo quand même un peu longue pour te souhaiter un joyeux anniversaire, loin des yeux mais près du cœur ❤",
+      videoName:"syrine.mp4"
+    },
+    {
       sender: "Jade et Ben",
       description:"" +
         "Bonne anniversaire luluuu j'espère que tu va bien profité de cette nouvelle année\n" +
@@ -71,6 +76,11 @@ export class VideoLuluService {
         "Nous te souhaitons un joyeux anniversaire,\n" +
         "Nous t'aimons fort et te faisons de gros bisous!",
       videoName:"copines.mp4"
+    },
+    {
+      sender: "Tes parents",
+      description:"Et voilà dix huit ans, encore 3  fois comme cela et tu seras à la retraite. Bosse bien et bon anniversaire 😂😂😂😂",
+      videoName:"parents.mp4"
     },
   ];
 
